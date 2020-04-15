@@ -1,0 +1,30 @@
+﻿**********************
+Windows PowerShell トランスクリプト開始
+開始時刻: 20200415225816
+ユーザー名: DESKTOP-E2K205O\Naoto
+RunAs ユーザー: DESKTOP-E2K205O\Naoto
+構成名: 
+コンピューター: DESKTOP-E2K205O (Microsoft Windows NT 10.0.18363.0)
+ホスト アプリケーション: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+プロセス ID: 3320
+PSVersion: 5.1.18362.628
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.628
+BuildVersion: 10.0.18362.628
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+トランスクリプトが開始されました。出力ファイル: PowerShellLog_for_otoan.txt
+設定は notepad ＄profile で変更できるよ！
+ssh:ssh -l pi 192.168.137.95
+conda: condaini
+PS C:\Users\Naoto\git\github_pushpulltest> git remote add origin https://github.com/otoanX/hello-world.git
+
+PS C:\Users\Naoto\git\github_pushpulltest> git fetch
+From https://github.com/otoanX/hello-world
+ * [new branch]      master       -> origin/master
+ * [new branch]      readme-edits -> origin/readme-edits
+PS C:\Users\Naoto\git\github_pushpulltest> git pull https://github.com/otoanX/hello-world.git
+
